@@ -20,6 +20,8 @@ interface CategoryPageProps {
 	}
 }
 
+export const revalidate = 0;
+
 export default async function CategoryPage({ params, searchParams }: CategoryPageProps) {
 	const products = await getProducts({
 		categoryId: params.categoryId,
