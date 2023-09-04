@@ -8,6 +8,12 @@ With NextJs we can optimize the site for better SEO and potentially better perfo
 
 ---
 
+### Deployed
+
+[Demo](https://ecommerce-store-lovat-delta.vercel.app/) deployed on vercel.
+
+---
+
 **Technologies Used**
 
 -   Typescript
