@@ -11,7 +11,6 @@ interface GalleryProps {
 
 
 export default function Gallery({ images }: GalleryProps) {
-	console.log(images)
 	return (
 		<Tab.Group as="div" className="flex flex-col-reverse">
 			<div className="mx-auto mt-6 hidden w-full max-w-2xl sm:block">
